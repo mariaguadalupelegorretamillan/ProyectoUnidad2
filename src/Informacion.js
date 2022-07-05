@@ -4,7 +4,8 @@ const Informacion = () => {
 
     return (
         <h2>
-            <h2>Informcion del Alumno</h2>
+            <h2 className="titulo">Informcion del Alumno</h2>
+            <h2 className="texto">
             <p>
                 UNIVERSIDAD TECNOLOGICA DE AGUASACLIENTES
             </p>
@@ -17,6 +18,8 @@ const Informacion = () => {
             <p>
                 Materia: Desarrollo Web Profesional
             </p>
+            </h2>
+            
         </h2>
     );
 };

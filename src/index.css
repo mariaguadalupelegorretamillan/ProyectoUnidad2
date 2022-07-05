@@ -96,3 +96,36 @@ h3 {
 .water {
   background-color:#4890c4;
 }
+.button1 {
+  background: #0e0d0d linear-gradient(#cc2bbf,#f1f1f1) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #1c1d1d;
+  color: rgb(32, 31, 31);
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+  text-align: center;
+}
+.button2 {
+  background: #0e0d0d linear-gradient(#8632ca,#f1f1f1) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #19191a;
+  color: rgb(32, 31, 31);
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  color: rgb(54, 98, 155);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texto{
+  text-align: center;
+  color: rgb(57, 109, 100);
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: #bba2c5;
+}
