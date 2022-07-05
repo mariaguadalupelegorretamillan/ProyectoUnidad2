@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PokemonThumb from './components/PokemonThumb'
-import PokemonDetails from './components/PokemonDetails'
+import {Link, Outlet} from 'react-router-dom';
 
 const App = () => {
 
@@ -30,6 +30,11 @@ const App = () => {
 
   return (
     <div className="app-contaner">
+      <h2 className="pokemon-card">
+
+</h2>
+
+<Outlet/>
       <div className="pokemon-container">
         <div className="all-container">
           {allPokemons.map( (pokemonStats, index) => 
